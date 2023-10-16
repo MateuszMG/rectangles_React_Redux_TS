@@ -2,11 +2,13 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mateuszmg.github.io/rectangles_React_Redux_TS/",
   "scripts": {
     "dev": "BROWSER=none PORT=3002 react-scripts start",
     "format": "prettier --write 'src/**/*.{ts,tsx,css,md,json}' --config ./.prettierrc",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
