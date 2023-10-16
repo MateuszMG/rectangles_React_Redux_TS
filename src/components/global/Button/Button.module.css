@@ -1,0 +1,17 @@
+.button {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 1px 1px 3px 1px var(--primary);
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 8px 24px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 3px 3px var(--primary);
+}
+
+.button:focus {
+  box-shadow: 0 0 3px 1px var(--primary);
+}
